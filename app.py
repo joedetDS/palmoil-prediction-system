@@ -6,10 +6,6 @@ import numpy as np
 with open('random_forest_model.pkl', 'rb') as file:
     rf_model = pickle.load(file)
 
-# Load the scaler (ensure the same scaler used in training)
-with open('scaler.pkl', 'rb') as file:
-    scaler = pickle.load(file)
-
 # Streamlit App
 st.title("Oil Quality Prediction")
 st.markdown("""
