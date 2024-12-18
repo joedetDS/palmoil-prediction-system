@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 import numpy as np
-from sklearn.preprocessing import StandardScaler  # Importing scaler
 
 # Load the Random Forest model
 with open('random_forest_model.pkl', 'rb') as file:
