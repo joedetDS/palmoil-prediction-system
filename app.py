@@ -1,8 +1,6 @@
 import streamlit as st
 import pickle
 import numpy as np
-import warnings
-warnings.filterwarings("ignore")
 
 # Load the Random Forest model
 with open('random_forest_model.pkl', 'rb') as file:
