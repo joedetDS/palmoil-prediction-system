@@ -2,4 +2,3 @@ streamlit
 pickle-mixin
 numpy
 scikit-learn
-warnings
