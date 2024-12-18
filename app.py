@@ -31,9 +31,6 @@ if st.button("Predict"):
     # Create a feature array
     features = np.array([[oleic_acid, peroxide_value, free_fatty_acid, iodine_value, saponification_value, viscosity]])
 
-    # Apply scaling to the input features
-    features_scaled = scaler.transform(features)
-
     # Make prediction
     prediction = rf_model.predict(features_scaled)[0]  # 0 for the first prediction
 
