@@ -43,4 +43,4 @@ if st.button("Predict"):
 # Add an informational sidebar
 st.sidebar.title("About")
 st.sidebar.info("This app uses a trained Random Forest model to classify oil samples based on their chemical properties.")
-st.sidebar.image("model_comparison.png", caption="Model Comparison: SVM vs RF vs LR", use_column_width=True)
+st.sidebar.image("model_comparison.png", caption="Model Comparison: SVM vs RF vs LR", use_container_width=True)
