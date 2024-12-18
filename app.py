@@ -32,7 +32,7 @@ if st.button("Predict"):
     features = np.array([[oleic_acid, peroxide_value, free_fatty_acid, iodine_value, saponification_value, viscosity]])
 
     # Make prediction
-    prediction = rf_model.predict(features_scaled)[0]  # 0 for the first prediction
+    prediction = rf_model.predict(features)[0]  # 0 for the first prediction
 
     # Map prediction to class
     prediction_class = "Adulterated" if prediction == 0 else "Pure"
